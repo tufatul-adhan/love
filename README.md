@@ -1,12 +1,12 @@
-﻿# Love Heart â€” multilingual typographic art â¤ï¸
+# Love Heart - multilingual typographic art
 
-A generative heart made from â€œI love youâ€ in 20 languages, with floating text and a soft shimmer.
+A generative heart made from "I love you" in 20 languages, with floating text and a soft shimmer.
 
 ## See it in your browser
 
-**[Open the live animation](https://tufatul-adhan.github.io/love/)** â€” no installation needed. Use **Replay animation** to watch it draw again.
+Open the animation at [tufatul-adhan.github.io/love](https://tufatul-adhan.github.io/love/) after enabling GitHub Pages. No installation is needed; use **Replay animation** to watch it draw again.
 
-The browser version is published automatically from the `main` branch with GitHub Pages. If the link is not live yet, open **Settings â†’ Pages** in the repository and set the source to **GitHub Actions**; the first deployment will start on the next push.
+To publish it, open [Settings > Pages](https://github.com/tufatul-adhan/love/settings/pages). Under **Build and deployment**, choose **Deploy from a branch**, then select `main` and `/(root)`, and save. GitHub Pages will publish the browser version and update it on future pushes.
 
 ## Run the Python desktop version
 
@@ -21,4 +21,3 @@ python love.py
 - Parametric heart filled with phrases in 20 languages.
 - Animated float-in, warm red coloring, and ambient shimmer.
 - Browser version works on desktop and mobile; desktop version uses Python `turtle` and `tkinter`.
-
