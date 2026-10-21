@@ -1,18 +1,23 @@
-# Multilingual Love Heart ❤️
+# Love Heart — multilingual typographic art ❤️
 
-A generative typographic art experiment in Python that renders a heart silhouette composed of "I love you" in 20 different languages, featuring smooth floating animations and a subtle shimmering effect.
+A generative heart made from “I love you” in 20 languages, with floating text and a soft shimmer.
 
-<img width="1302" height="752" alt="WhatsApp Image 2026-10-09 at 09 53 02" src="https://github.com/user-attachments/assets/6c2ccffe-f46d-4b2f-9430-36a6a5739beb" />
+## See it in your browser
 
+**[Open the live animation](https://tufatul-adhan.github.io/love/)** — no installation needed. Use **Replay animation** to watch it draw again.
 
-## Features
-- **Parametric Heart Boundary:** Uses a parametric heart curve to calculate exact scanline boundaries and text placement.
-- **Multilingual Typography:** Cycles dynamically through love phrases in 20 languages with proportional font scaling.
-- **Smooth Animation:** Eased vertical float-in transitions (`cubic ease-out`) with color grading from deep crimson to glowing edges.
-- **Post-Render Shimmer:** Continuous ambient glimmers on random phrases once drawing completes.
-- **Zero External Dependencies:** Built entirely with Python's standard library (`turtle`, `tkinter`, `math`, `random`).
+The browser version is published automatically from the `main` branch with GitHub Pages. If the link is not live yet, open **Settings → Pages** in the repository and set the source to **GitHub Actions**; the first deployment will start on the next push.
 
-## How to Run
+## Run the Python desktop version
+
+Requires Python 3 with `tkinter` available. It uses only the Python standard library.
 
 ```bash
 python love.py
+```
+
+## Features
+
+- Parametric heart filled with phrases in 20 languages.
+- Animated float-in, warm red coloring, and ambient shimmer.
+- Browser version works on desktop and mobile; desktop version uses Python `turtle` and `tkinter`.
